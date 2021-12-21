@@ -14407,6 +14407,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/ConfirmaExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\ConfirmaExcluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/Listagem.cshtml",
+      "TargetPath": "Views\\Usuarios\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Livro/_FormCadastro.cshtml",
       "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
       "FileKind": "mvc"
@@ -14417,13 +14427,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuarios\\CadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Livro/Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuarios\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/RegistrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\RegistrarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14449,6 +14474,11 @@
     {
       "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Livro/Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/yago/Downloads/UC07-ATV1/Biblioteca/Views/Usuarios/EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\EditarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {

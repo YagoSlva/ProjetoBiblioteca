@@ -51,3 +51,9 @@
 /home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Biblioteca.dll
 /home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Biblioteca.pdb
 /home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Biblioteca.genruntimeconfig.cache
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/CadastroRealizado.cshtml.g.cs
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/EditarUsuario.cshtml.g.cs
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/NeedAdmin.cshtml.g.cs
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/RegistrarUsuario.cshtml.g.cs
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Listagem.cshtml.g.cs
+/home/yago/Downloads/UC07-ATV1/Biblioteca/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/ConfirmaExcluirUsuario.cshtml.g.cs

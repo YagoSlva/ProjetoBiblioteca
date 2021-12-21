@@ -1,0 +1,43 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Cadastro Realizado";
+}
+
+<h1 class="row justify-content-md-center">Usuário Cadastrado!</h1>
+<div class="row text-center" >
+    <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Dados do Usuário</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Id:</td>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <td>Nome:</td>
+                        <td>@Model.Nome</td>
+                    </tr>
+                    <tr>
+                        <td>Login:</td>
+                        <td>@Model.Login</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo:</td>
+                        @if (Model.Tipo == 0)
+                        {
+                            <td>Administrador</td>
+                        }else
+                        {
+                            <td>Padrão</td>
+                        }                        
+                    </tr>
+                    
+                </tbody>
+                
+        </table>
+        <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Listagem">Listar Usuários</a>
+    
+</div>

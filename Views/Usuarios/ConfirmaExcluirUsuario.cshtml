@@ -1,0 +1,58 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Excluir Usuário";
+}
+
+<h1 class="row justify-content-md-center">Deseja realmente excluir este usuário?</h1>
+<div class="text-center">
+    <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Dados do Usuário</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Id:</td>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <td>Nome:</td>
+                        <td>@Model.Nome</td>
+                    </tr>
+                    <tr>
+                        <td>Login:</td>
+                        <td>@Model.Login</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo:</td>
+                        @if (Model.Tipo == 0)
+                        {
+                            <td>Administrador</td>
+                        }else
+                        {
+                            <td>Padrão</td>
+                        }                        
+                    </tr>                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                    <form asp-action="ExcluirUsuario" method="POST">
+                        <input type="hidden" name="decisao" value="EXCLUIR">
+                        <input type="hidden" name="Id" value="@Model.Id">
+                        <input type="submit" value="Excluir" class="btn btn-primary">
+                    </form>
+                    </td>
+                    <td>
+                    <form asp-action="ExcluirUsuario" method="POST">
+                        <input type="hidden" name="decisao" value="CANCELAR">
+                        <input type="submit" value="Cancelar" class="btn btn-primary">
+                    </form>
+                    </td>
+                    </tr>
+                </tfoot>
+                
+        </table>
+    
+</div>
